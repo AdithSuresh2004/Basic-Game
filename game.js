@@ -122,6 +122,7 @@ function Drawpopup() {
     if (win == false && count == 9) {
         gameOverContainer.style.display='flex'
         hide.style.display='none'
+        gameOverMsg.innerText='Draw';
     }
 }
 

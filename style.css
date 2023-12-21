@@ -96,9 +96,6 @@ body {
     height:50vmin;
     width:50vmin;
     flex-wrap: wrap;
-    gap: 1.5vmin;
-    padding: 30px;
-    margin-top:30px ;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -110,11 +107,18 @@ body {
     z-index: 1000;
     text-align: center; 
     display: none;
+    justify-content: center;
 }
 
 .winlose {
-    color: #060606;
+    color: #323030;
     font-size: 5.5em; 
+}
+
+#winner {
+    color: #060606;
+    padding: 0.5em;
+    font-size: 5.5em;
 }
 
 @keyframes fadeIn {
