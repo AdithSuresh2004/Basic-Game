@@ -1,0 +1,40 @@
+body {
+    background-color:darkred;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+h1{
+    font-size: 60px;
+    color: darkgoldenrod;
+}
+
+
+p{
+    padding: 0 2px ;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+button{
+    width:250px;
+    font-size: 30px;
+    background-color: darkgoldenrod;
+    color: darkred;
+    padding:20px;
+    border: none;
+    outline: none;
+    font-weight: bolder;
+    transition: ease 0.1s;
+    border-radius: 5px;
+}
+
+button:hover{
+    transform: scale(1.07);
+}
