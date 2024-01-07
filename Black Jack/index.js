@@ -31,7 +31,7 @@ function startGame(){
 function newGame(){
     cards.textContent = "Cards: "
     sum.textContent = "Sum: "
-    message.textContent = ""
+    message.textContent = "Time for Round 1"
     earlierSum = 0;
     round = 1;
 }
